@@ -1,0 +1,18 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.front-bg {
+    background: url('../Images/coffee.jpg') center no-repeat fixed;
+    background-size:cover;
+    min-height: 500px;
+    width: 100%;
+}
+.products {
+    /*background-color: #3e3d3d;*/
+    min-height: 600px;
+    width: 100%;
+}
+.card-2{
+    display:none;
+}
