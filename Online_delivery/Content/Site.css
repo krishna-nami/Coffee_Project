@@ -9,10 +9,15 @@
     width: 100%;
 }
 .products {
-    /*background-color: #3e3d3d;*/
-    min-height: 600px;
+    /*background-color: ccccc*/
+    min-height: 500px;
     width: 100%;
 }
 .card-2{
     display:none;
+}
+.subscribtion {
+    min-height: 200px;
+    background-color: #3e3d3d;
+    width:100%;
 }
