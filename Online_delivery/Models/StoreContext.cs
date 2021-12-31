@@ -9,6 +9,6 @@ namespace Online_delivery.Models
     public class StoreContext: DbContext
     {
         public DbSet <Product> Products { get; set; }
-        public DbSet <Weight_product> Weight { get; set; }
+        public DbSet <Weight> Weight { get; set; }
     }
 }

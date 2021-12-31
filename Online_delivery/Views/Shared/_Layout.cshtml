@@ -14,7 +14,7 @@
             <div class="navbar-header">
                 @Html.ActionLink("Java coffee beans", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 <button type="button" class="navbar-toggler float-right" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-togg ler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                
             </div>
@@ -51,8 +51,39 @@
     <div class=" body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <footer class="bg-dark text-white pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Contact Info</h3>
+                        <p>15 Vowes st, Phillip ACT, 2606.</p>
+                        <p>Call Us: 049389384</p>
+                        <p>Email: kfdkjfj@email.com</p>
+                    </div>
+
+                    <div class="col"> <h3>Connect with us</h3>
+                    
+                                      <div class="d-flex flex-row">
+                                          <div class="p-2">Facebook</div>
+                                          <div class="p-2">Youtube</div>
+                                          <div class="p-2">Twitter</div>
+                                      </div>
+                    
+                    </div>
+                    <div class="col"> <h3>Our policies.</h3> 
+                    
+                                      <div class="d-flex flex-column">
+                                          <div class="p-1">Terms and conditions</div>
+                                          <div class="p-1">About us</div>
+                                          <div class="p-1">Our customer policy</div>
+                                          <div class="p-1">Subscription</div>
+                                          <div class="p-1">Blogs</div>
+
+                                      </div></div>
+
+                </div>
+            </div>
+            <p class="text-center text-white btn-secondary p-2">&copy; @DateTime.Now.Year - Caffenio beans</p>
         </footer>
     </div>
 

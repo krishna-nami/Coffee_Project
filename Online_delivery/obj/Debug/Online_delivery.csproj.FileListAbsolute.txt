@@ -168,3 +168,4 @@ C:\Users\krish\source\repos\Coffee_Project\Online_delivery\Coffee_Project\Online
 C:\Users\krish\source\repos\Coffee_Project\Online_delivery\Coffee_Project\Online_delivery\obj\Debug\Online_delivery.csproj.CopyComplete
 C:\Users\krish\source\repos\Coffee_Project\Online_delivery\Coffee_Project\Online_delivery\obj\Debug\Online_delivery.dll
 C:\Users\krish\source\repos\Coffee_Project\Online_delivery\Coffee_Project\Online_delivery\obj\Debug\Online_delivery.pdb
+C:\Users\krish\source\repos\Coffee_Project\Online_delivery\Coffee_Project\Online_delivery\obj\Debug\Online_delivery.Migrations.AddQualityIntoProductNewWeight.resources

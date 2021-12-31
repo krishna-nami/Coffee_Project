@@ -18,7 +18,9 @@ namespace Online_delivery.Models
         public double price { get; set; }
         [Required(ErrorMessage = "PRoduct Image is Required")]
         public string Pimage { get; set; }
-        public string Pbrief { get; set; }
+        public string Pbrief { get; set; } 
+        
+        public int qty { get; set; }
          
         public string details { get; set; }
         public double rating { get; set; }
